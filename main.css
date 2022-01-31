@@ -10,8 +10,8 @@ body {
     margin: 0, 0;
     -webkit-background-size: 100vw 50%;
     -moz-background-size:100vw 50%;
-    background-size: 100vw 50%;
     -o-background-size:100vw 50%;
+    background-size: 100vw 50%;
 }
 
 h1 {
@@ -83,8 +83,8 @@ header {
     background-repeat: no-repeat;
     -webkit-background-size: 100vw 100%;
     -moz-background-size:100vw 100%;
-    background-size: 100vw 100%;
     -o-background-size:100vw 100%;
+    background-size: 100vw 100%;
     border-left: double #7e13d4 5px;
     border-top: double #ffffff 5px;
     border-right: double #7e13d4 5px;
