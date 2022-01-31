@@ -78,9 +78,9 @@ hr{
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
-    background-image: url("img/skateboarding-games.jpg");
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(131, 185, 140, 0.349)), url("img/skateboarding-games.jpg");
     background-position: top;
-    filter: grayscale(30%);
+    /* filter: grayscale(30%); */
     background-repeat: no-repeat;
     -webkit-background-size: 100vw 100%;
     -moz-background-size:100vw 100%;
