@@ -256,9 +256,9 @@ section div.panel img.Company {
 }
 
 iframe {
-    position: absolute;
-    bottom: -690px;
-    z-index: -1;
+    position: fixed;
+    bottom: 100px;
+    z-index: 1;
 
 }
 /* Footer */
