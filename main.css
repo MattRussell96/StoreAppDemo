@@ -146,6 +146,8 @@ nav li a:hover {
 
 nav#utilityMenu {
     float: left;
+    position: fixed;
+    z-index: 1;
     margin: -1.5em 0 0 0;
     padding: 0.35;
     background-color: #7e13d4;
@@ -191,7 +193,9 @@ nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::befor
 
 section#sidebar {
     width: 238px;
-    position: static;
+    position: fixed;
+    top: 30%;
+    right: 3%;
     float: right;
     display: block;
     background-color: rgb(0, 0, 0);
@@ -202,6 +206,19 @@ section#sidebar {
     border-right: #7e13d4 double 8px;
     border-bottom: #ffffff double 8px;
 }
+
+/* width: 238px;
+    position: static;
+    float: right;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    margin: 1.5em 0 3.0 11.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: #7e13d4 double 8px;
+    border-top: #ffffff double 8px;
+    border-right: #7e13d4 double 8px;
+    border-bottom: #ffffff double 8px; */
+
 /* Main Section */
 
 section #main {
