@@ -3,14 +3,15 @@
 body {
     font-size: 67.5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url(img/skateboard.body.jpg) no-repeat;
-    background-position: 0vw;
-    padding: 0;
-    margin: 0;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+    background: url(img/skateboard.body.jpg), url(img/skateboard.body.2.jpg);
+    background-position: right bottom, top left;
+    background-repeat: no-repeat, no-repeat;
+    padding: 0, 0;
+    margin: 0, 0;
+    -webkit-background-size: 100vw 50%;
+    -moz-background-size:100vw 50%;
+    background-size: 100vw 50%;
+    -o-background-size:100vw 50%;
 }
 
 h1 {
@@ -78,10 +79,17 @@ header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
     background-image: url("img/skateboarding-games.jpg");
-    background-repeat: no-repeat, fixed;
-    background-position: center;
-    background-size: cover;
-    background-position: 0vw;
+    background-position: top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100vw 100%;
+    -moz-background-size:100vw 100%;
+    background-size: 100vw 100%;
+    -o-background-size:100vw 100%;
+    border-left: double #7e13d4 5px;
+    border-top: double #ffffff 5px;
+    border-right: double #7e13d4 5px;
+    border-bottom: double #ffffff 5px;
+    /* background-position */
 }
 
 header h1 {
@@ -105,7 +113,7 @@ header h2 {
 }
 /* Nav Bars */
 
-nav {
+nav {   
     color: #000;
     font-size: 1.7em;
     letter-spacing: 0.04em;
@@ -183,8 +191,8 @@ nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::befor
 
 section#sidebar {
     width: 238px;
+    position: static;
     float: right;
-    position: relative;
     display: block;
     background-color: rgb(0, 0, 0);
     margin: 1.5em 0 3.0 11.5em;
@@ -219,7 +227,7 @@ section div.panel {
     border-radius: 0.6em;
 }
 
-section div.panel img.cheeseType {
+section div.panel img.Company {
     width: 100%;
 }
 /* Footer */
