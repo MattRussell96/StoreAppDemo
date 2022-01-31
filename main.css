@@ -80,6 +80,7 @@ header {
     margin: 0 0 2.0em;
     background-image: url("img/skateboarding-games.jpg");
     background-position: top;
+    filter: grayscale(30%);
     background-repeat: no-repeat;
     -webkit-background-size: 100vw 100%;
     -moz-background-size:100vw 100%;
@@ -247,6 +248,7 @@ section div.panel {
 section div.panel img.Company {
     width: 100%;
 }
+
 /* Footer */
 
 footer {
